@@ -1,6 +1,6 @@
 # Projekt HADR: Research and Development Documentation
 
-
+## Všechny informace na [WIKI](https://github.com/Stekra88/Jumping-Hexapod/wiki)
 
 Tento dokument slouží jako záznam výzkumu a vývoje (R&D) pro návrh dynamického systému skákajícího hexapoda. Zaměřujeme se na teoretický návrh a následnou validaci tří fází pohybu: dopad, odraz a let.
 
