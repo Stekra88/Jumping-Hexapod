@@ -1,7 +1,5 @@
 ## R&D Roadmapa projektu
 
-Všechny podrobnosti a prameny dokumentace zde na [WIKI](https://github.com/Stekra88/Jumping-Hexapod/wiki). &gt; 
-
 **Stav projektu:** $${\color{orange}Fáze\space0 – Zahájení \space projektu / Rešerše \space a \space teoretický \space koncept}$$
 
 ### Fáze 1: Rešerše, koncept a dimenzování *(Právě probíhá)*
