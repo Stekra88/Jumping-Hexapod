@@ -1,34 +1,27 @@
-# Projekt HADR: Research and Development Documentation
+## R&D Roadmapa projektu
 
-## Všechny informace na [WIKI](https://github.com/Stekra88/Jumping-Hexapod/wiki)
+Všechny podrobnosti a prameny dokumentace zde na [WIKI](https://github.com/Stekra88/Jumping-Hexapod/wiki). &gt; 
 
-Tento dokument slouží jako záznam výzkumu a vývoje (R&D) pro návrh dynamického systému skákajícího hexapoda. Zaměřujeme se na teoretický návrh a následnou validaci tří fází pohybu: dopad, odraz a let.
+**Stav projektu:** $${\color{orange}Fáze\space0 – Zahájení \space projektu / Rešerše \space a \space teoretický \space koncept}$$
 
-## Výzkum mechaniky a aktuátorů
+### Fáze 1: Rešerše, koncept a dimenzování *(Právě probíhá)*
+- [ ] **Rešerše robotů:** 4-nohé roboty, hexapody, stavba nohy, její kinematická struktura, využití lankového převodu.
+- [ ] **Rešerše pohonů:** Analýza kvazipřímých pohonů (QDD), lankového převodu (Capstan drive) a ostatních druhů převodů.
+- [ ] **Geometrie končetiny:** Stanovení hmotnostního modelu.
+- [ ] **Teoretické výpočty:** Stanovení potřebného krouticího momentu, otáček a výkonu aktuátoru pro potřebné zrychlení při odrazu a dopadu.
 
-* **Klouby a převody:** Pro osy odrazu (Pitch) teoreticky zkoumáme využití lankového převodu (Capstan drive). Jeho hlavní výhodou pro náš výzkum je absence pasivního tření a vůle, což by mělo poskytnout zpětnou poddajnost nezbytnou pro bezpečné tlumení dopadů. Planetové převodovky zvažujeme nasadit pouze pro osu zatáčení (Yaw), kde nehrozí rázové zničení ozubení.
+### Fáze 2: Simulační prostředí & Matematický model (MuJoCo)
+- [ ] **Základní model v MuJoCo:** Vytvoření 1D modelu jedné nohy / zkušebního rigu pro pár protilehlých nohou na svislém vedení.
+- [ ] **Základní řízení:** Polohování, řízení modelu 
+- [ ] **Řízení dopadu (Dampening):** Návrh impedančního řízení v ose Z.
 
+### Fáze 3: Návrh hardwaru & Výroba 1. demonstrátoru
+- [ ] **Výběr komponent:** Specifikace brushless motoru a řídicí jednotky s podporou CAN-FD.
+- [ ] **Konstrukce v CAD:** Návrh lankového převodu a prostorově úspornou sektorovou kladkou.
+- [ ] **Stavba kloubu:** Výroba a sestavení jednoho fyzického kloubu (3D tisk / hliníkové díly, uhlíkové trubičky).
 
-* **Pohonné jednotky:** V rámci rešerše analyzujeme možnosti kvazipřímých pohonů (QDD). Jako jedna z možností se jeví využití plochých outrunner (tzv. pancake) motorů díky jejich teoreticky vysokému krouticímu momentu. Výběr konkrétního hardwaru nadále podléhá zkoumání.
-
-
-* **Optimalizace měřítka:** Naše matematické modely naznačují, že zkrácení femuru na 6 až 7 centimetrů výrazně sníží nároky na krouticí moment. Pracovní hypotéza cílí na celkovou hmotnost systému kolem 1,5 kilogramu.
-
-
-
-## Metodika vývoje a testování
-
-* **Laterální síly:** Zvolený pavoučí (sprawling) postoj generuje při odrazu a dopadu asymetrické boční síly.
-
-
-* **Koncept testovacího rigu:** Z výzkumu chování sil vyplývá, že testování jediné končetiny na vertikální ose by vedlo ke vzpříčení vodicích ložisek. Náš návrh testovacího standu proto teoretizuje využití páru protilehlých nohou, kde se horizontální síly vektorově vyruší.
-
-
-
-## Simulace a softwarová architektura
-
-* **Simulační prostředí:** Proběhl průzkum dostupných fyzikálních enginů pro dynamickou robotiku. Na základě rešerše bylo zkoumáno prostředí MuJoCo, které s největší pravděpodobností zvolíme jako hlavní nástroj pro simulace díky jeho pokročilému řešení kontaktních sil.
-
-
-* **Strukturální řízení:** Zkoumáme teoretický návrh softwarového stavového automatu pro detekci kontaktu s podložkou, aby bylo možné v reálném čase přepínat řídicí strategie mezi letem a odpružením na zemi.
-
+### Fáze 4: Testování 1D kloubu & Navazující bakalářská práce
+- [ ] **Ověření funkce kloubu:** Fyzické otestování řízení polohy a demonstrace zpětné poddajnosti.
+- [ ] **Pádový test:** Jednoduchá fyzická zkouška absorpce nárazu na jednom kloubu. Na obou kloubech.
+- [ ] **Stavba 1D dvousetového rigu:** Realizace zkušebního standu pro pár nohou (resp. jednu nohu) a porovnání naměřených dat se simulací v MuJoCo.
+---
