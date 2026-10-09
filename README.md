@@ -1,6 +1,6 @@
 ## R&D Roadmapa projektu
 
-**Stav projektu:** $${\color{orange}Fáze\space0 – Zahájení \space projektu / Rešerše \space a \space teoretický \space koncept}$$
+**Stav projektu:** $${\color{yellow}Fáze\space1 – Rešerše \space a \space teoretický \space koncept}$$
 
 ### Fáze 1: Rešerše, koncept a dimenzování *(Právě probíhá)*
 - [ ] **Rešerše robotů:** 4-nohé roboty, hexapody, stavba nohy, její kinematická struktura, využití lankového převodu.
