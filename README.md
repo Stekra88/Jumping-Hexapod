@@ -3,8 +3,8 @@
 **Stav projektu:** $${\color{yellow}Fáze\space1 – Rešerše \space a \space teoretický \space koncept}$$
 
 ### Fáze 1: Rešerše, koncept a dimenzování *(Právě probíhá)*
-- [ ] **Rešerše robotů:** 4-nohé roboty, hexapody, stavba nohy, její kinematická struktura, využití lankového převodu.
-- [ ] **Rešerše pohonů:** Analýza kvazipřímých pohonů (QDD), lankového převodu (Capstan drive) a ostatních druhů převodů.
+- [x] **Rešerše robotů:** 4-nohé roboty, hexapody, stavba nohy, její kinematická struktura, využití lankového převodu.
+- [x] **Rešerše pohonů:** Analýza kvazipřímých pohonů (QDD), lankového převodu (Capstan drive) a ostatních druhů převodů.
 - [ ] **Geometrie končetiny:** Stanovení hmotnostního modelu.
 - [ ] **Teoretické výpočty:** Stanovení potřebného krouticího momentu, otáček a výkonu aktuátoru pro potřebné zrychlení při odrazu a dopadu.
 
