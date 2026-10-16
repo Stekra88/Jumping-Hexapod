@@ -2,6 +2,8 @@
 
 **Stav projektu:** $${\color{yellow}Fáze\space1 – Rešerše \space a \space teoretický \space koncept}$$
 
+**Podrobnosti a zpracované fáze + výstupy lze sledovat [ZDE](https://github.com/Stekra88/Jumping-Hexapod/wiki)**
+
 ### Fáze 1: Rešerše, koncept a dimenzování *(Právě probíhá)*
 - [ :heavy_check_mark: ] **Rešerše robotů:** 4-nohé roboty, hexapody, stavba nohy, její kinematická struktura, využití lankového převodu.
 - [ :heavy_check_mark: ] **Rešerše pohonů:** Analýza kvazipřímých pohonů (QDD), lankového převodu (Capstan drive) a ostatních druhů převodů.
