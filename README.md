@@ -25,3 +25,6 @@
 - [ - ] **Pádový test:** Jednoduchá fyzická zkouška absorpce nárazu na jednom kloubu. Na obou kloubech.
 - [ - ] **Stavba 1D dvousetového rigu:** Realizace zkušebního standu pro pár nohou (resp. jednu nohu) a porovnání naměřených dat se simulací v MuJoCo.
 ---
+
+### CODE NAME: 
+projekt **H.A.D.R - hexapod arachnid dampening repulsion**
