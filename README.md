@@ -7,8 +7,8 @@
 ### Fáze 1: Rešerše, koncept a dimenzování *(Právě probíhá)*
 - [ :heavy_check_mark: ] **Rešerše robotů:** 4-nohé roboty, hexapody, stavba nohy, její kinematická struktura, využití lankového převodu.
 - [ :heavy_check_mark: ] **Rešerše pohonů:** Analýza kvazipřímých pohonů (QDD), lankového převodu (Capstan drive) a ostatních druhů převodů.
-- [ - ] **Geometrie končetiny:** Stanovení hmotnostního modelu.
-- [ - ] **Teoretické výpočty:** Stanovení potřebného krouticího momentu, otáček a výkonu aktuátoru pro potřebné zrychlení při odrazu a dopadu.
+- [ 🟡 ] **Geometrie končetiny:** Stanovení hmotnostního modelu.
+- [ 🟡 ] **Teoretické výpočty:** Stanovení potřebného krouticího momentu, otáček a výkonu aktuátoru pro potřebné zrychlení při odrazu a dopadu.
 
 ### Fáze 2: Simulační prostředí & Matematický model (MuJoCo)
 - [ - ] **Základní model v MuJoCo:** Vytvoření 1D modelu jedné nohy / zkušebního rigu pro pár protilehlých nohou na svislém vedení.
